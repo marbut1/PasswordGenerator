@@ -36,12 +36,14 @@ body {
 #firstPassword {
     width: 150px;
     height: 35px;
+    color: black;
     border-radius: 10px ;
 }
 
 #secondPassword {
     width: 150px;
     height: 35px;
+    color: black;
     border-radius: 10px ;
 }
 
