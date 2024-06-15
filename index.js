@@ -23,7 +23,7 @@ function openInput() {
 document.getElementById("passwordLength").addEventListener("keypress", function(event) {
     if (event.key != "Enter") {
         lengte += event.key
-        alert(event.key)
+        alert("event = " + event.key)
     } else {    
         alert(event.key)
         let firstPassword = ""
