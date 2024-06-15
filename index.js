@@ -21,7 +21,7 @@ function openInput() {
 }
 
 document.getElementById("passwordLength").addEventListener("keypress", (event) => {
-    if (event.key = "Enter") {
+    if (event.key != "Enter") {
         lengte += event.key
         alert("event in if = " + event.key)
     } else {    
