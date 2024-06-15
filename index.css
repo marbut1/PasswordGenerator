@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#titel1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+}
+
+#titel2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color:chartreuse;
+}
+
+#titel3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+#generate {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 35px;
+    background-color:forestgreen;
+    border-radius: 10px ;
+    color: white;
+}
+
+#firstPassword {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px ;
+}
+
+#secondPassword {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px ;
+}
+
+#passwordLength {
+    background-color: black ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 30px;
+    color: white;
+  
+
+}
