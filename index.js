@@ -28,7 +28,7 @@ document.getElementById("passwordLength").addEventListener("keypress",(e) => {
         alert(e.key)
         let firstPassword = ""
         let secondPassword = ""
-        console.log(lengte)
+        alert(lengte)
         for (let intI = 0 ; intI < lengte ; intI++){
             firstPassword += characters[Math.floor(Math.random()*91)]
             secondPassword += characters[Math.floor(Math.random()*91)]
