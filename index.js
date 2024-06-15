@@ -20,7 +20,7 @@ function openInput() {
     document.getElementById("secondPassword").textContent = ""
 }
 
-document.getElementById("passwordLength").addEventListener("keypress",(event) => {
+document.getElementById("passwordLength").addEventListener("keypress", function(event) {
     if (event.key != "Enter") {
         lengte += event.key
         alert(event.key)
