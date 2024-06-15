@@ -20,12 +20,12 @@ function openInput() {
     document.getElementById("secondPassword").textContent = ""
 }
 
-document.getElementById("passwordLength").addEventListener("keypress",(e) => {
-    if (e.key != "Enter") {
-        lengte += e.key
-        alert(e.key)
+document.getElementById("passwordLength").addEventListener("keypress",(event) => {
+    if (event.key != "Enter") {
+        lengte += event.key
+        alert(event.key)
     } else {    
-        alert(e.key)
+        alert(event.key)
         let firstPassword = ""
         let secondPassword = ""
         alert("lengte = " + lengte)
