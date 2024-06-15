@@ -1,4 +1,4 @@
-ent = "// Genereer twee random passwords wanner de gebruiker op de knop klikt.
+// Genereer twee random passwords wanner de gebruiker op de knop klikt.
 // Elk password moet 15 karakters lang zijn.
 // Uitbreiding: mogelijkheid om de passwoordlengte in te stellen.
 // Mogelijkheid om symbolen en/of cijfers uit te sluiten. 
