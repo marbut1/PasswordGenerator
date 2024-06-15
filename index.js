@@ -16,14 +16,16 @@ let lengte = ""
 function openInput() {
     document.getElementById("passwordLength").setAttribute("type", "text")
     document.getElementById("passwordLength").focus()
-   
+    document.getElementById("firstPassword").textContent = ""
+    document.getElementById("secondPassword").textContent = ""
 }
-
 
 document.getElementById("passwordLength").addEventListener("keypress",(e) => {
     if (e.key != "Enter") {
         lengte += e.key
+        alert(e.key)
     } else {    
+        alert(e.key)
         let firstPassword = ""
         let secondPassword = ""
         console.log(lengte)
