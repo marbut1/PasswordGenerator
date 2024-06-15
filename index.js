@@ -38,8 +38,8 @@ document.getElementById("passwordLength").addEventListener("keypress",(e) => {
         document.getElementById("passwordLength").setAttribute("type", "hidden")
         document.getElementById("passwordLength").value = ""
         lengte = 0
-        alert(document.getElementById("firstPassword").textContent)
-        alert(document.getElementById("secondPassword").textContent)
+        alert(firstPasswordButton.textContent)
+        alert(secondPasswordButton.textContent)
     }
 })
 
