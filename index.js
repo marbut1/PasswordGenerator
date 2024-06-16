@@ -14,7 +14,7 @@ let secondPasswordButton = document.getElementById("secondPassword")
 let lengte = ""
 
 function openInput() {
-    document.getElementById("passwordLength").setAttribute("type", "text")
+    document.getElementById("passwordLength").setAttribute("type", "number")
     document.getElementById("passwordLength").focus()
     document.getElementById("firstPassword").textContent = ""
     document.getElementById("secondPassword").textContent = ""
