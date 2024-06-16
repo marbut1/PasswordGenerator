@@ -22,10 +22,8 @@ function openInput() {
 
 document.getElementById("passwordLength").addEventListener("keypress", (event) => {
     if (event.key === "Enter") {
-        alert(event.key)
         let firstPassword = ""
         let secondPassword = ""
-        alert("lengte = " + lengte)
         for (let intI = 0 ; intI < lengte ; intI++){
             firstPassword += characters[Math.floor(Math.random()*91)]
             secondPassword += characters[Math.floor(Math.random()*91)]
@@ -35,12 +33,8 @@ document.getElementById("passwordLength").addEventListener("keypress", (event) =
         document.getElementById("passwordLength").setAttribute("type", "hidden")
         document.getElementById("passwordLength").value = ""
         lengte = 0
-        alert(firstPasswordButton.textContent)
-        alert(secondPasswordButton.textContent)
      } else {
         lengte += event.key
-        alert("event in if = " + event.key)
-        alert("lengte in if = " + lengte)
     }
 })
 
