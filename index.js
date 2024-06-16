@@ -21,11 +21,7 @@ function openInput() {
 }
 
 document.getElementById("passwordLength").addEventListener("keyup", (event) => {
-    if (event.key != "Enter") {
-        lengte += event.key
-        alert("event in if = " + event.key)
-        alert("lengte in if = " + lengte)
-    } else {    
+    if (event.key === "Enter") {
         alert(event.key)
         let firstPassword = ""
         let secondPassword = ""
@@ -41,6 +37,10 @@ document.getElementById("passwordLength").addEventListener("keyup", (event) => {
         lengte = 0
         alert(firstPasswordButton.textContent)
         alert(secondPasswordButton.textContent)
+     } else {
+        lengte += event.key
+        alert("event in if = " + event.key)
+        alert("lengte in if = " + lengte)
     }
 })
 
