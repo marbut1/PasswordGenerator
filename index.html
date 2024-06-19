@@ -7,9 +7,18 @@
         <font id="titel2">random password</font><br><br>
         <font id="titel3">Never use an insecure password again.</font>
         <br><br><br>
+        <p> 
+            <label id = "labelPasswordLength" type = "text">Length Paswoord: </label>
+            <input id = "passwordLength" type = "text">
+        </p>
         <p>
-            <button id = "generate" onclick = "openInput()">Generate passwords</button>
-            <input id = "passwordLength" type = "hidden">
+            <input type = "checkbox" id = "geenCijfers">
+            <label for = "geenCijfers" id = "labelGeenCijfers">Geen Cijfers</label>
+            <input type = "checkbox" id = "geenSymbolen">
+            <label for = "geenKarakters" id = "labelGeenSymbolen">Geen Symbolen</label>
+        </p>
+        <p>
+            <button id = "generate" onclick = "generatePasswords()">Generate passwords</button>
         </p>
         <hr>
         <button id="firstPassword"></button>
