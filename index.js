@@ -28,18 +28,20 @@ let firstPasswordButton = document.getElementById("firstPassword")
 let secondPasswordButton = document.getElementById("secondPassword")
 let checkboxGeenCijfers = document.getElementById("geenCijfers")
 let checkboxGeenSymbolen = document.getElementById("geenSymbolen")
-let paswordLengthEl = document.getElementById("passwordLength")
+let passwordLengthEl = document.getElementById("passwordLength")
 let lengte = ""
 
 
 firsPasswordButton.textContent = ""
 secondPasswordButton.textContent = ""
-paswordLengthEl.focus
+
+passwordLengthEl.focus()
+
 
 function generatePasswords() {
     lengte = document.getElementById("passwordLength").value 
     if (lengte > 15) {
-        alert("Teveel karakters! (max. 15)" + lengte)
+        alert("Teveel karakters! (max. 15)")
         document.getElementById("passwordLength").value = ""
         lengte = 0
     } else {
@@ -72,7 +74,8 @@ function generatePasswords() {
         } 
         firstPasswordButton.textContent = firstPassword
         secondPasswordButton.textContent = secondPassword
-        document.getElementById("passwordLength").value = ""
+        passwordLengthEl.value = ""
+        passwordLengthEl.focus()
         lengte = 0
     }    
 }
