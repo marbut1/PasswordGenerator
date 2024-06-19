@@ -36,14 +36,13 @@ body {
 #firstPassword {
     width: 150px;
     height: 35px;
-    color: black;
     border-radius: 10px ;
+    color:black;
 }
 
 #secondPassword {
     width: 150px;
     height: 35px;
-    color: black;
     border-radius: 10px ;
 }
 
@@ -52,6 +51,16 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 30px;
     color: white;
-  
+}
 
+#labelPasswordLength {
+    color:white
+}
+
+#labelGeenCijfers {
+    color: white;
+}
+
+#labelGeenSymbolen {
+    color: white;
 }
